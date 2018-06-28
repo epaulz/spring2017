@@ -1,0 +1,28 @@
+/*
+ * Eric Paulz
+ * epaulz@clemson.edu
+ * CPSC 1020-001, Spring 2017
+ * Programming Assignment #2
+ */
+
+1. At first I was having difficulty understanding how to use instances of
+   objects within other classes.  I was trying to follow the structure given
+   in the write-up to a T, and that just wasn't working out for me.
+
+2. I thought it through and thought back to working with structures last
+   semester, and I saw some similarities.  Using the required hierarchy of
+   classes, I restructured my program to fit my own understanding a bit better.
+   As soon as I did this it all started making much more sense and I was
+   able to complete the assignment in no time.  I only used setters and
+   getters and did not use any overloaded constructors.  This just made more
+   sense to me.
+
+3. I thought this assignment was OK.  Honestly, I am kind of tired of working
+   with PPM images so much.  I understand that they are helpful in teaching
+   a lot of things, but I wish we would use what we are learning for more than
+   just one application.  I found that this program could have been written
+   with maybe 1 or 2 classes as opposed to 5.  I get that it was to help us
+   learn about using classes within eachother, but I think it would have been
+   more interesting if we could have done something that REALLY REQUIRED that
+   type of thing as opposed to taking a simpler program and breaking it up as
+   much as possible just for the sake of an assignment.

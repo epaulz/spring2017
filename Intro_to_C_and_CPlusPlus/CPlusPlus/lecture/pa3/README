@@ -1,0 +1,21 @@
+/*
+ * Eric Paulz
+ * epaulz@clemson.edu
+ * CPSC 1020-001, Spring 2017
+ * Programming Assignment #3
+ */
+
+    My main problem was being able to get the rectangle to print out right.
+    I was able to solve this by creating 3 Triangle objects within the 
+    Quadrilateral class and treat those triangles like I did the main
+    triangle in the driver.
+
+    It also took me a while to figure out how to write this program so that it 
+    could handle images of any dimension.  I decided to create an empty 2D
+    vector inside my Image class and then write a function that would resize
+    that vector once the width and height of the image had been read in.
+
+    I think it was a good assignment that built off of alot of things that we
+    learned throughout the semester.  It took me alot longer to complete than
+    I thought it would, but it was very rewarding when I finally worked out
+    all of the bugs!

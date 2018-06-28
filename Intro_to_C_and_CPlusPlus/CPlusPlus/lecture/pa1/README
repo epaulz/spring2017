@@ -1,0 +1,22 @@
+/*
+ * Eric Paulz
+ * CPSC 1020-001, Spring 2017
+ * epaulz@clemson.edu
+ * Programming Assignment #1
+ */
+
+1. The main problems that I encountered involved rotating the rectangular
+   image to the right or left. The rest of the project was pretty
+   straightforward.  It took a lot of thought at times.  It was pretty
+   time-consuming, but not too rigorous.
+2. I realized that I was going to have to switch the width and height
+   in the header before allocating memory for a new array, otherwise
+   I would get a segmentation fault when trying to populate the
+   array.
+3. At first I hated it because my code worked perfectly on the square
+   image, but not at all on the rectangular one.  After getting the
+   updated image1, though, it wasn't so bad.  After completing the
+   project I realize that it gave me really great practice with lots
+   of different things like: reading in files, dynamically allocating memory,
+   developing algorithms within for loops and nested for loops, and working
+   with pointers.  Overall I think it was a good assignment!

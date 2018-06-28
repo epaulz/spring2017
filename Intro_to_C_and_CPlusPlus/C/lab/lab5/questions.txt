@@ -1,0 +1,49 @@
+/* Eric Paulz
+ * CPSC 1010 - Fall 2016
+ * Lab 5
+ * 9/19/2016
+ * - Text file with answered questions for Lab 5
+ */
+
+Using an editor, answer the following questions:
+
+NAME:	Eric Paulz
+
+---------
+example.c
+---------
+1) What is the cause of the seg fault in the program called example.c?
+
+The arguments of the for loop basically say that 'i' starts at zero and that while
+i>=0 that 'i' will be incremented the next time around.  Since no other limitations
+were put on it, 'i' will increase forever (the number will never be <0).  The array
+'data' goes from 1-5, but the computer will read it as 0-4.  As soon as the for loop
+tries to call an element of the array that is >4 we get an error because there is no
+such element.
+
+--------
+broken.c
+--------
+2) What line in broken.c did the program seg fault on?
+Line 28
+
+3) What was the value of the variable "count" at the time of the seg fault?
+count = 10
+
+4) What was the value of the variable "i" at the time of the seg fault?
+i = 613
+
+5) What was the value of the variable "search" at the time of the seg fault?
+search = 1
+
+6) What are the values in the "table" array?
+table = {5, 10, 12, 14, 16, 18, 20, 22, 24, 26}
+
+7) What do you think the bug is?
+
+The argument for the while loop on Line 27 is the cause of the error.  It says 
+'while(search=1)' which is actually ASSIGNING a value of 1 to the variable 'search'.
+The argument of a while loop should be a conditional statement, not an assignment.
+If we simply change it to 'while(search == 1)' the program will continue and run as
+it is supposed to.
+
